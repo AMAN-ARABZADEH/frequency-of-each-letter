@@ -31,10 +31,10 @@ letterCounts : std::map<char, int> - The map containing the frequency of each le
 totalLetters : int - The total number of letters in the string.
 # Example Output
 
-a: 10.41%__  
-b: 0.00%__  
-c: 4.53%__  
-d: 4.18%___  
+a: 10.41% 
+b: 0.00% 
+c: 4.53%
+d: 4.18%
 e: 13.98%  
 f: 0.13%  
 g: 0.45%  
