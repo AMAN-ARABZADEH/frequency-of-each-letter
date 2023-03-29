@@ -1,26 +1,14 @@
 # frequency-of-each-letter
 
-# Ciphertext Decoder
-This is a Python script that helps decode a piece of ciphertext by analyzing the frequency of each letter in the text. 
-The script counts the number of occurrences of each letter and creates a list that represents the frequency of each letter in the ciphertext. 
-This information can be used to determine the plaintext by analyzing the frequency of each letter in the English language.
+# Frequency.cpp
+#  Frequency of Each Letter
+This project consists of two C++ files that work together to analyze a text file and determine the frequency of each letter in the file. This can be used to help solve substitution ciphers.
 
-# How to use
-Clone the repository to your local machine.
-Install Python on your machine if it's not already installed.
-Open the lettercounter.py file in your preferred text editor.
-Update the ciphertext variable with the text you want to decode.
-Run the script using the following command: python lettercounter.py
-The script will output a list that represents the frequency of each letter in the ciphertext.
-You can use this information to determine the plaintext by analyzing the frequency of each letter in the English language.
-
-# Contributing
-If you would like to contribute to this project, feel free to fork the repository and submit a pull request. 
-Any contributions are welcome, whether it's improving the existing code or adding new features.
+# Frequency.cpp
+Frequency.cpp contains a function LetterFrequency that takes a std::string input, a reference to a std::map that holds the count of each letter, and a reference to an int that holds the total number of letters in the text. The function iterates through each character in the input string and counts the frequency of each letter. It then updates the count of each letter in the std::map and increments the total number of letters.
 
 
+# main.cpp
+This is a C++ program that reads a text file, replaces each occurrence of a specified letter with another letter, and writes the result to another file.
 
-# Acknowledgments
-This project was inspired by the challenge of decoding ciphertext and the desire to learn more about encryption and decryption techniques.
-Thanks to the Python programming language and the string module for making this project possible.
-The ciphered text are taken from book "Cryptogrophy" by Simon Rubinstein ´-Salzedo
+
