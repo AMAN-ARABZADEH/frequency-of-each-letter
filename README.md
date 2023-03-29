@@ -32,7 +32,7 @@ totalLetters : int - The total number of letters in the string.
 # Example Output
 a: 10.41%
 b: 0.00%
-c: 4.53%
+c: 4.53%     
 d: 4.18%
 e: 13.98%
 f: 0.13%
@@ -54,7 +54,7 @@ u: 3.54%
 v: 0.96%
 w: 2.63%
 x: 0.00%
-y: 2.17%
+y: 2.17% 
 z: 0.00%
 Total is: 100
 
