@@ -1,14 +1,88 @@
 # frequency-of-each-letter
 
 # Frequency.cpp
-#  Frequency of Each Letter
-This project consists of two C++ files that work together to analyze a text file and determine the frequency of each letter in the file. This can be used to help solve substitution ciphers.
 
-# Frequency.cpp
-Frequency.cpp contains a function LetterFrequency that takes a std::string input, a reference to a std::map that holds the count of each letter, and a reference to an int that holds the total number of letters in the text. The function iterates through each character in the input string and counts the frequency of each letter. It then updates the count of each letter in the std::map and increments the total number of letters.
+This C++ file contains a program that counts the frequency of each letter in a given text file and writes the results to an output file. The program is useful for solving substitution ciphers.
+
+# How to Use
+1. Create an input file named inputfrequency.txt in the same directory as Frequency.cpp.
+2. Write or paste the text you want to analyze into the input file.
+3. Compile and run Frequency.cpp.
+4. The program will create an output file named outputfrequency.txt with the frequency of each letter in the input text.
+
+# Functions
+
+CountLetterFrequency
+Counts the frequency of each letter in a given string and updates the counts in a map.
 
 
-# main.cpp
-This is a C++ program that reads a text file, replaces each occurrence of a specified letter with another letter, and writes the result to another file.
+
+# Parameters
+text : std::string - The string to analyze.
+letterCounts : std::map<char, int>& - A reference to a map to store the frequency of each letter.
+totalLetters : int& - A reference to a variable to store the total number of letters in the string.
+
+
+PrintLetterFrequency
+Prints the frequency of each letter in a given map and writes the results to an output file.
+
+# Parameters
+letterCounts : std::map<char, int> - The map containing the frequency of each letter.
+totalLetters : int - The total number of letters in the string.
+# Example Output
+a: 10.41%
+b: 0.00%
+c: 4.53%
+d: 4.18%
+e: 13.98%
+f: 0.13%
+g: 0.45%
+h: 1.88%
+i: 8.63%
+j: 0.00%
+k: 0.33%
+l: 5.44%
+m: 2.68%
+n: 8.31%
+o: 9.29%
+p: 0.00%
+q: 0.00%
+r: 7.05%
+s: 6.20%
+t: 7.49%
+u: 3.54%
+v: 0.96%
+w: 2.63%
+x: 0.00%
+y: 2.17%
+z: 0.00%
+Total is: 100
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
