@@ -96,6 +96,9 @@ This program does not depend on any external libraries. It only uses standard C+
 This program is designed to solve a substitution cipher where only one letter is replaced with another. It cannot solve more complex substitution ciphers.
 
 
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 
 
